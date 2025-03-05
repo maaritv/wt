@@ -40,6 +40,8 @@ app.listen(PORT, 'localhost', () => {
 
 //sayHi-funktio suoritetaan Web-palvelimessa, se palauttaa tekstin: function addText() { jne
 //joka on funktio, joka suoritetaan Web-selaimessa. 
+
+
 function sayHi(){
    return `function addText() {
              document.getElementById('output').innerText = 'Hello World';
@@ -60,6 +62,12 @@ function createHeader(){
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Hello World App</title>
+            <style>
+             div.tulos {
+                visibility: visible;
+                color: #FF00FF
+             }
+            </style>
         </head>`
 }
 
@@ -67,10 +75,9 @@ function createBodyWith(sayIt){
     return `<body>
             <h1>Welcome!</h1>
             <button onclick="addText()">Click Me</button>
-            <div id="output"></div>
+            <div id="output" class="tulos"  onmouseover="this.style.visibility='hidden'"></div>
             <script>
                 ${sayIt()} 
             </script>
         </body>`
-
 }
