@@ -16,7 +16,6 @@ function AddMemoComponent({addNewMemo}){
  
    return (<div>
     <form onSubmit={handleSubmit}>
-      <div>
         <label>Nimi:</label>
         <input
           type="text"
@@ -24,15 +23,12 @@ function AddMemoComponent({addNewMemo}){
           onChange={(e) => setName(e.target.value)}
           placeholder="Anna muistiinpanon nimi"
         />
-      </div>
-      <div>
         <label>Kuvaus:</label>
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="Kirjoita kuvaus..."
         />
-      </div>
       <button type="submit">Lisää memo</button>
      </form>
    </div>)
