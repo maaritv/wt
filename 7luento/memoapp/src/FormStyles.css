@@ -1,0 +1,19 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: "Times", serif;
+    color: orange;
+  }
+  
+  .form-container input,
+  .form-container button {
+    font-family: "Times", serif;
+    color: orange;
+    border: 1px solid orange;
+    padding: 8px;
+    margin: 5px;
+  }
+  

@@ -9,6 +9,10 @@ import { MemosComponent }  from './memoscomponents'  //MemosComponent on yksi me
 function MemoApp() {
   const [memos, setMemos] = useState([])
 
+  const appStyle = {
+    backgroundColor: "green",
+  }
+
   function addNewMemo(memo){
     //Ei lisätä suoraan tilamuuttujaan uutta jäsentä
     //tehdään syväkopio ensi nykyisistä memoista
@@ -19,7 +23,7 @@ function MemoApp() {
   }
 
   return (
-    <div className="MemoApp">
+    <div className="MemoApp" style={appStyle}>
     <AddMemoComponent addNewMemo={addNewMemo}/>
     <MemosComponent memos={memos}/>
     </div>
