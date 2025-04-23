@@ -1,0 +1,26 @@
+[
+  { "username": "ville", "blogs": [], "id": "65f43a6e54f2ac9b3fa4e8fb" },
+  { "username": "matti", "id": "65f45f7dfb1ea3537712da3e" },
+  {
+    "username": "testi",
+    "name": "testaaja",
+    "id": "65f949297dbc9e9a808b4650",
+    "passwordHash": "$2b$10$dA4icQAncLvwJPt3Wr7YjuavNRXY396S.cSgo3cAfBhVw.73BpAxq"
+  },
+  {
+    "username": "alert(\"poo\")",
+    "name": "anneli onneli",
+    "id": "65f949517dbc9e9a808b4653"
+  },
+  { "username": "mari", "name": "", "id": "65fda019bf4ace40bd71ece4" },
+  {
+    "username": "marjaana",
+    "name": "&lt;script&gt;console.log(&#x27;tadaa&#x27;)&lt;&#x2F;script&gt;",
+    "id": "65fda109bf4ace40bd71ecea"
+  },
+  {
+    "username": "marja",
+    "name": "<script>console.log('tadaa')</script>",
+    "id": "65fda13aa030e75b849e24ce"
+  }
+]
